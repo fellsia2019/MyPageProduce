@@ -1,0 +1,93 @@
+html,body,header {
+    height: 100vh;
+
+}
+#intro{
+
+    background: url(bg.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    height: 100%;
+    background-color: #191919;
+
+}
+
+.navbar{
+    background-color: rgba(25,25,25, 0.95 );
+}
+
+
+/*from verstka_2 for nav smoothscroll*/
+.header__inner {
+
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+.header__inner {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    text-decoration: none;
+    color: #1f373d;
+}
+
+.img {
+    border: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+
+}
+
+.log-in{
+    position: relative;
+    z-index: 1000000;
+}
+
+.bg--color{
+    width: auto;
+    background-color: #D3E3FE;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+
+}
+
+.bg-footer--color{
+    background-color: #0a0129;
+}
+
+.title-donate{
+    font-size: 0.75rem;
+}
+
+
+@media (max-width:575.98px){
+    .title-intro{
+        font-size: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .title-intro2{
+        font-size: 4rem;
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
+
